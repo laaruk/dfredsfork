@@ -60,7 +60,7 @@
     ],
     "socket": true,
     "manifest": "https://raw.githubusercontent.com/laaruk/dfredsfork/main/module.json",
-    "download": "https://github.com/laaruk/dfredsfork/blob/main/dfreds-convenient-effects.zip",
+    "download": "https://github.com/laaruk/dfredsfork/raw/main/dfreds-convenient-effects.zip",
     "protected": false,
     "coreTranslation": false
 }
