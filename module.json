@@ -1,7 +1,7 @@
 {
     "id": "dfreds-convenient-effects",
     "title": "DFreds Convenient Effects",
-    "description": "Добавляет простые в использовании переключаемые активные эффекты для распространенных случаев использования",
+    "description": "Adds easy to use toggleable active effects for common use cases",
     "author": "DFreds",
     "authors": [
         {
@@ -16,7 +16,7 @@
     "bugs": "https://github.com/DFreds/dfreds-convenient-effects/issues",
     "changelog": "https://github.com/DFreds/dfreds-convenient-effects/releases",
     "flags": {},
-    "version": "3.1.1",
+    "version": "4.0.2",
     "compatibility": {
         "minimum": 10,
         "verified": "10.291",
@@ -30,10 +30,6 @@
         "./styles/dfreds-convenient-effects.css"
     ],
     "languages": [],
-    "system": [
-        "dnd5e",
-        "sw5e"
-    ],
     "relationships": {
         "systems": [
             {
@@ -44,6 +40,10 @@
         "requires": [
             {
                 "id": "socketlib",
+                "type": "module"
+            },
+            {
+                "id": "lib-wrapper",
                 "type": "module"
             }
         ]
